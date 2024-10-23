@@ -1,0 +1,151 @@
+{
+  "autogidas.lt": {
+    "selectors": {
+      "listing": {
+        "selector": "html > body > #wrapper > #container > div:nth-child(6)",
+        "type": "text"
+      },
+      "Title": {
+        "selector": "html > body > #wrapper > #container > div:nth-child(6) > div:nth-child(2) > a:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1)",
+        "type": "text"
+      },
+      "Price": {
+        "selector": "html > body > #wrapper > #container > div:nth-child(6) > div:nth-child(2) > a:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > strong",
+        "type": "text"
+      },
+      "Gearbox": {
+        "selector": "html > body > #wrapper > #container > div:nth-child(6) > div:nth-child(2) > a:nth-child(1) > div:nth-child(2) > div:nth-child(3) > span:nth-child(3)",
+        "type": "text"
+      },
+      "nextPage": {
+        "selector": "#container > div.list-wrapper > div.list-items > div.paging > a",
+        "type": "attribute",
+        "attribute": "href"
+      }
+    }
+  },
+  "autoplius.lt": {
+    "selectors": {
+      "listing": {
+        "selector": "html > body > div:nth-child(2) > #content > div:nth-child(1) > div > main > article",
+        "type": "text"
+      },
+      "Title": {
+        "selector": "html > body > div:nth-child(2) > #content > div:nth-child(1) > div > main > article > article:nth-child(4) > div > a > div:nth-child(2) > div:nth-child(2) > h2",
+        "type": "text"
+      },
+      "Price": {
+        "selector": "html > body > div:nth-child(2) > #content > div:nth-child(1) > div > main > article > article:nth-child(4) > div > a > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div",
+        "type": "text"
+      },
+      "Gearbox": {
+        "selector": "html > body > div:nth-child(2) > #content > div:nth-child(1) > div > main > article > article:nth-child(4) > div > a > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > span:nth-child(3) > b",
+        "type": "text"
+      },
+      "nextPage": {
+        "selector": "html > body > #wrapper > #container > div:nth-child(6) > div:nth-child(2) > div:nth-child(27) > a",
+        "type": "attribute",
+        "attribute": "href"
+      }
+    }
+  },
+  "pigu.lt": {
+    "templates": {
+      "eshop": {
+        "itemSelector": "div.product-item-inner-hover.pbot.h-use-ui-lib",
+        "itemSelectorMethod": "css",
+        "fields": {
+          "Item": {
+            "selector": "div.product-item-inner-hover.pbot.h-use-ui-lib",
+            "method": "css",
+            "type": "text"
+          },
+          "Title": {
+            "selector": ".product-title",
+            "method": "css",
+            "type": "text"
+          },
+          "Price": {
+            "selector": ".product-price",
+            "method": "css",
+            "type": "text"
+          },
+          "Specifications": {
+            "selector": ".product-specs",
+            "method": "css",
+            "type": "text"
+          },
+          "Description": {
+            "selector": ".product-description",
+            "method": "css",
+            "type": "text"
+          },
+          "Next Page": {
+            "selector": ".pagination-next a",
+            "method": "css",
+            "type": "text"
+          }
+        },
+        "nextPage": {
+          "selector": ".pagination-next a",
+          "method": "css",
+          "type": "attribute",
+          "attribute": "href"
+        },
+        "paginationLimit": 1
+      }
+    }
+  },
+  "varle.lt": {
+    "templates": {
+      "eshop": {
+        "itemSelector": ".product-item",
+        "itemSelectorMethod": "css",
+        "fields": {
+          "Item": {
+            "selector": ".product-item",
+            "method": "css",
+            "type": "text"
+          },
+          "Title": {
+            "selector": ".product-title",
+            "method": "css",
+            "type": "text"
+          },
+          "Price": {
+            "selector": ".product-price",
+            "method": "css",
+            "type": "text"
+          },
+          "Specifications": {
+            "selector": ".product-specs",
+            "method": "css",
+            "type": "text"
+          },
+          "Description": {
+            "selector": ".product-description",
+            "method": "css",
+            "type": "text"
+          },
+          "Next Page": {
+            "selector": ".pagination-next a",
+            "method": "css",
+            "type": "text"
+          },
+          "nono": {
+            "selector": "nono",
+            "method": "css",
+            "type": "text"
+          }
+        },
+        "nextPage": {
+          "selector": ".pagination-next a",
+          "method": "css",
+          "type": "attribute",
+          "attribute": "href"
+        },
+        "paginationLimit": 2
+      }
+    }
+  }
+}
